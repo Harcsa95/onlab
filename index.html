@@ -7,7 +7,9 @@
 	<script src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
 		id="sap-ui-bootstrap"
 		data-sap-ui-theme="sap_belize"
-		data-sap-ui-libs="sap.m">
+		data-sap-ui-libs="sap.m"
+		 data-sap-ui-compatVersion="edge"
+         data-sap-ui-preload="async">
 	</script>
 	<script type="text/javascript">
 		sap.ui.getCore().attachInit(function () {
@@ -40,6 +42,7 @@
 			app.addPage(page1).addPage(page2);
 			// place the app into the HTML document
 			app.placeAt("content");
+			alert("UI5 is ready");
 		});
 		
 	</script>
