@@ -26,7 +26,7 @@ sap.ui.define([
           this._getDialog().open();
        },
        onCloseDialog : function () {
-           this._getDialog.close();
+           this._getDialog().close();
        }
     });
  });
