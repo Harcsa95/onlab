@@ -1,0 +1,5 @@
+<mvc:View
+    controllerName="sap.ui.demo.walkthrough.controller.RecipeList"
+    >
+
+</mvc:View>

@@ -16,6 +16,13 @@
         "settings": {
           "odataVersion": "2.0"
         }
+      }, 
+      "recipeRemote" : {
+        "uri" : "https://ldai5er9.wdf.sap.corp:44300/sap/opu/odata/sap/API_RECIPE/",
+        "type" : "OData",
+        "settings" : {
+          "odataVersion" : "2.0"
+        }
       }
     }
   },
