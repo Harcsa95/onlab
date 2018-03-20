@@ -8,6 +8,7 @@ sap.ui.define([
 
 	return Controller.extend("sap.ui.demo.walkthrough.controller.RecipeList", {
 		onInit : function () {
+            var oViewModel = new JSONModel();
 			this.getView().setModel(oViewModel, "view");
 		},
 		onFilterInvoices : function (oEvent) {
