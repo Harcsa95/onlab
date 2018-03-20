@@ -14,7 +14,7 @@
             <Toolbar>
                 <Title text="{i18n>invoiceListTitle}"/>
                 <ToolbarSpacer/>
-                <SearchField width="50%" search="onFilterRecipes">
+                <SearchField width="50%" search="onFilterRecipes"/>
             </Toolbar>
         </headerToolbar>
         <items>
