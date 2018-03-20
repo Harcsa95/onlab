@@ -10,13 +10,6 @@
       "version": "1.0.0"
     },
     "dataSources": {
-      "invoiceRemote": {
-        "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/",
-        "type": "OData",
-        "settings": {
-          "odataVersion": "2.0"
-        }
-      }, 
       "recipeRemote" : {
         "uri" : "https://ldai5er9.wdf.sap.corp:44300/sap/opu/odata/sap/API_RECIPE/",
         "type" : "OData",
@@ -60,9 +53,6 @@
         "settings": {
           "bundleName": "sap.ui.demo.walkthrough.i18n.i18n"
         }
-      },
-      "invoice": {
-        "dataSource": "invoiceRemote"
       },
       "recipe": {
         "datasource": "recipeRemote"
