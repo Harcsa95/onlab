@@ -1,5 +1,5 @@
 <mvc:View
-      controllerName="sap.ui.demo.walkthrough.controller.App"
+      controllerName="create.recipe.graph.controller.App"
       xmlns="sap.m"
       xmlns:mvc="sap.ui.core.mvc"
       displayBlock="true">
@@ -7,7 +7,7 @@
       <pages>
          <Page title="{i18n>homePageTitle}">
             <content>
-                  <mvc:XMLView viewName="sap.ui.demo.walkthrough.view.RecipeList"/>
+                  <mvc:XMLView viewName="create.recipe.graph.view.RecipeList"/>
             </content>
          </Page>
       </pages>

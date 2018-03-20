@@ -6,7 +6,7 @@ sap.ui.define([
 ], function (Controller, JSONModel, Filter, FilterOperator) {
 	"use strict";
 
-	return Controller.extend("sap.ui.demo.walkthrough.controller.RecipeList", {
+	return Controller.extend("create.recipe.graph.controller.RecipeList", {
 		onInit : function () {
             var oViewModel = new JSONModel();
 			this.getView().setModel(oViewModel, "view");
