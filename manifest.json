@@ -55,7 +55,7 @@
         }
       },
       "recipe": {
-        "datasource": "recipeRemote"
+        "dataSource": "recipeRemote"
       }
     }
   }
