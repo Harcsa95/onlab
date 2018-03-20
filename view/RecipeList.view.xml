@@ -1,5 +1,27 @@
 <mvc:View
     controllerName="sap.ui.demo.walkthrough.controller.RecipeList"
-    >
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+    <List
+        id="recipeList"
+        headerText="{i18n>recipeListTitle}"
+        class="sapUiResponsiveMargin"
+        width="auto"
+        items="{
+                    path : 'recipe>/A_Recipe'
+        }">
+        <headerToolbar>
+            <Toolbar>
+                <Title text="{i18n>invoiceListTitle}"/>
+                <ToolbarSpacer/>
+                <SearchField width="50%" search="onFilterRecipes">
+            </Toolbar>
+        </headerToolbar>
+        <items>
+            <ObjectListItem
+                title="{recipe>A_RecipeCharcValue">
+            </ObjectListItem>
 
+        </items>
+    </List>
 </mvc:View>
